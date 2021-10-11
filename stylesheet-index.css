@@ -1,0 +1,14 @@
+@import "stylesheet.css";
+
+#index {
+	background-color: #473e25;
+}
+
+.welcome {
+	text-align: center;
+}
+
+video {
+	max-width: 100%;
+	height: auto;
+}

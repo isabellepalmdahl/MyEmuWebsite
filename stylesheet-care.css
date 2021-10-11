@@ -1,0 +1,32 @@
+@import "stylesheet.css";
+
+#care {
+	background-color: #473e25;
+}
+
+.careimages {
+	display: flex;
+	justify-content: space-between;
+}
+
+article {
+	text-align: justify;
+	text-justify: inter-word;
+	padding: 5px 30px;
+}
+
+@media (max-width: 800px) {
+  .careimages {
+    flex: 50%;
+    max-width: 80%;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .careimages {
+    flex: 100%;
+    max-width: 100%;
+  }

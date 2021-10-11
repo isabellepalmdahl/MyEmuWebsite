@@ -1,0 +1,52 @@
+@import "stylesheet.css";
+
+#funfacts {
+	background-color: #473e25;
+}
+
+fieldset {
+    border: 5px solid #807047;
+	margin: 20px 0px;
+	border-style: inset;
+	box-shadow: 5px 5px 10px 20px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+	
+}
+
+legend {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.boxes {
+	display: flex;
+	flex-direction: column;
+	width: 75%;
+	margin: auto;
+}
+
+.ytvideos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 20px 0px;
+}
+
+@media (max-width: 800px) {
+
+	.ytvideos > ytvideo {
+		flex: 50%;
+	}
+}
+
+@media (max-width: 600px) {
+	 
+	 .ytvideos {
+		flex-direction: column;
+		margin: auto;
+	}
+	
+	legend {
+	font-size: 18px;
+}
+
+}
